@@ -102,7 +102,7 @@ Maulana Azad College, Aurangabad
 
 ## 🏆 Achievements
 
-* 🥇 Secured Rank 1 in academics.
+* 🥇 Secured Rank 1 in College Academics.
 * 📚 Assisted teachers in designing assignments and learning materials.
 
 ---
@@ -129,10 +129,10 @@ Application
 
 ## 🤝 Let's Connect
 
-* 💼 **LinkedIn:** [Add your LinkedIn profile]
-* 🐙 **GitHub:** [Add your GitHub profile]
-* 🌐 **Portfolio:** [Add your portfolio website]
-* 📧 **Email:** [Add your email]
+* 💼 **LinkedIn:** https://www.linkedin.com/in/mahevish-fatema-7015512a8/
+* 🐙 **GitHub:** https://github.com/siddiquimahevishfatema
+* 🌐 **Portfolio:** https://siddiquimahevishfatema.github.io/mahevish_fatema.github.io/
+* 📧 **Email:** siddiquimahevish07@gmail.com
 
 ---
 
