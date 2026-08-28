@@ -105,22 +105,7 @@ Maulana Azad College, Aurangabad
 
 ---
 
-## 📊 My DevOps Journey
 
-I'm continuously building practical projects to strengthen my understanding of DevOps and cloud technologies.
-
-````text
-Application
-     ↓
- Git/GitHub
-     ↓
-  Jenkins
-     ↓
-   Docker
-     ↓
- Kubernetes
-     ↓
-    AWS
 
 🤝 Let's Connect
 💼 LinkedIn: https://www.linkedin.com/in/mahevish-fatema-7015512a8/
