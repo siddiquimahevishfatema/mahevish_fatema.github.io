@@ -109,7 +109,7 @@ Maulana Azad College, Aurangabad
 
 I'm continuously building practical projects to strengthen my understanding of DevOps and cloud technologies.
 
-```text
+   text
 Application
      ↓
  Git/GitHub
