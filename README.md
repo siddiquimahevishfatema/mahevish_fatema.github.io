@@ -82,57 +82,6 @@ An automated CI/CD pipeline designed to build, containerize, and deploy the **`m
 
 ---
 
-## CI/CD Pipeline Workflow
-
-[ Code Commit ] ➔ [ Jenkins Pipeline ] ➔ [ Maven Build & Test ]
-│
-[ Zero-Downtime EKS Deployment ] ◄─ [ Push Docker Image ] ◄─ [ Docker Build ]
-
-
-1. **Source Control:** Jenkins pulls the latest source code from `siddiquimahevishfatema/maven-web-app1`.
-2. **Build & Test:** Maven compiles the code and packages the web application into a `.war` file.
-3. **Containerization:** Builds a lightweight Docker image containing Tomcat/Jetty to serve the application artifact.
-4. **Registry Push:** Authenticates and pushes the tagged image to the container registry.
-5. **EKS Rollout:** Applies updated Kubernetes manifests via `kubectl` to trigger a rolling update across worker nodes with zero application downtime.
-
----
-
-## Repository Structure
-
-```text
-├── .jenkins/
-│   └── Jenkinsfile            # Declarative Jenkins pipeline script
-├── k8s/
-│   ├── deployment.yaml        # EKS Deployment spec (rolling updates)
-│   └── service.yaml           # Service configuration (LoadBalancer/Ingress)
-├── src/                       # Java application source code
-├── Dockerfile                 # Multi-stage Dockerfile for Maven build & web server
-├── pom.xml                    # Maven dependencies and build settings
-└── README.md
-Setup & Configuration
-Prerequisites
-Active AWS EKS cluster and configured worker nodes.
-
-Installed local tools: Java JDK (11+), Apache Maven, Docker, AWS CLI, kubectl.
-
-Jenkins server configured with AWS credentials, Docker, and Kubernetes CLI plugins.
-
-Running Locally
-Build the WAR file:
-
-Bash
-mvn clean package
-Build the Docker Image:
-
-Bash
-docker build -t maven-web-app1:latest .
-Run Container Locally:
-
-Bash
-docker run -d -p 8080:8080 maven-web-app1:latest
-Key Metrics & Achievements
-Automated Rollouts: Fully automated CI/CD pipeline triggered on code commit using Jenkins.
-
 Zero Downtime: Implemented Kubernetes rolling update strategy to eliminate downtime during releases.
 
 Streamlined Containerization: Leveraged multi-stage Docker builds to reduce image footprint and speed up deployment times across EKS worker nodes.
