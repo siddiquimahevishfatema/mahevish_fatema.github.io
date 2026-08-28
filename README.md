@@ -66,35 +66,33 @@ A web-based internal messaging system developed using Django to enable communica
 
 # AWS EKS Java Application Deployment Pipeline
 
-An automated CI/CD pipeline designed to build, containerize, and deploy the **`maven-web-app1`** Java web application onto Amazon Elastic Kubernetes Service (AWS EKS) with zero-downtime rollouts.
+Designed and built an end-to-end continuous integration and deployment pipeline targeting an Amazon EKS cluster to automate application rollouts.
 
----
+Key Achievements & Technical Architecture:
+• Infrastructure & Cluster Setup: Provisioned an AWS EKS cluster using eksctl with custom node groups and configured IAM roles for node communication. Verified active cluster nodes (kubectl get nodes).
+• Continuous Integration: Configured a multi-stage Jenkins pipeline triggered by GitHub commits, integrating Apache Maven (mvn clean package) for automated compilation and artifact creation.
+• Containerization & Registry: Built lightweight container images from the .war application artifact and pushed tagged images to Docker Hub.
+• Automated Deployment & Load Balancing: Authenticated Jenkins with cluster credentials (kubeconfig) to execute dynamic rollouts (kubectl apply -f k8s-deploy.yml), exposing the application externally via AWS Elastic Load Balancer (ELB).
 
-## Architecture & Tech Stack
+GitHub: https://github.com/siddiquimahevishfatema/maven-web-app1.git
 
-* **Application:** Java Web Application (`siddiquimahevishfatema/maven-web-app1`)
-* **Build Tool:** Apache Maven
-* **CI/CD Orchestration:** Jenkins
-* **Containerization:** Docker
-* **Container Registry:** Amazon ECR / Docker Hub
-* **Orchestration Platform:** Amazon Elastic Kubernetes Service (AWS EKS)
-* **Deployment Strategy:** Rolling Updates (Zero-Downtime)
+Skills:  
 
----
+Kubernetes
 
-Zero Downtime: Implemented Kubernetes rolling update strategy to eliminate downtime during releases.
+Amazon EKS
 
-Streamlined Containerization: Leveraged multi-stage Docker builds to reduce image footprint and speed up deployment times across EKS worker nodes.
+Jenkins
 
-I'm currently building hands-on DevOps projects by taking applications and implementing modern deployment practices using:
+Docker
 
-* Docker
-* Jenkins
-* Kubernetes
-* AWS
-* CI/CD
-* Linux
+AWS (Amazon Web Services)
 
+Apache Maven
+
+CI/CD Pipelines
+
+Linux
 These projects will demonstrate my practical experience in **containerization, automated deployments, Kubernetes orchestration, and cloud deployment**.
 
 ---
