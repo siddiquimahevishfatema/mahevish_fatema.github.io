@@ -71,8 +71,6 @@ Designed and built an end-to-end continuous integration and deployment pipeline 
 
 **GitHub:** [Repository Link](https://github.com/siddiquimahevishfatema/maven-web-app1.git)
 
-`Kubernetes` | `Amazon EKS` | `Jenkins` | `Docker` | `AWS` | `Apache Maven` | `CI/CD Pipelines` | `Linux`
-
 ---
 
 ## 📚 Currently Learning
@@ -105,15 +103,13 @@ Maulana Azad College, Aurangabad
 
 ---
 
+## 🤝 Let's Connect
 
+* 💼 **LinkedIn:** [Mahevish Fatema](https://www.linkedin.com/in/mahevish-fatema-7015512a8/)
+* 🐙 **GitHub:** [siddiquimahevishfatema](https://github.com/siddiquimahevishfatema)
+* 🌐 **Portfolio:** [Live Portfolio Site](https://siddiquimahevishfatema.github.io/mahevish_fatema.github.io/)
+* 📧 **Email:** [siddiquimahevish07@gmail.com](mailto:siddiquimahevish07@gmail.com)
 
-🤝 Let's Connect
-💼 LinkedIn: https://www.linkedin.com/in/mahevish-fatema-7015512a8/
-
-🐙 GitHub: https://github.com/siddiquimahevishfatema
-
-🌐 Portfolio: https://siddiquimahevishfatema.github.io/mahevish_fatema.github.io/
-
-📧 Email: siddiquimahevish07@gmail.com
+---
 
 ⭐ Feel free to explore my repositories as I continue building and documenting my DevOps journey.
