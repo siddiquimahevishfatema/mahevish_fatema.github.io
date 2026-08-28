@@ -26,7 +26,6 @@ I'm passionate about learning how applications move from **code to production** 
 ## 🛠️ Skills & Technologies
 
 ### DevOps & Cloud
-
 * AWS
 * Docker
 * Kubernetes
@@ -34,11 +33,9 @@ I'm passionate about learning how applications move from **code to production** 
 * CI/CD
 
 ### Programming & Application Development
-
 * Python
 
 ### Operating Systems & Tools
-
 * Linux
 * Git
 * GitHub
@@ -49,11 +46,9 @@ I'm passionate about learning how applications move from **code to production** 
 ## 🚀 Projects
 
 ### Employee Messaging System
-
 A web-based internal messaging system developed using Django to enable communication between employees.
 
 **Highlights:**
-
 * Developed an employee messaging system using Django.
 * Designed the system to support internal communication.
 * Focused on reducing external data sharing and supporting secure internal communication.
@@ -64,39 +59,21 @@ A web-based internal messaging system developed using Django to enable communica
 
 ### 🔧 DevOps Projects
 
-# AWS EKS Java Application Deployment Pipeline
+#### AWS EKS Java Application Deployment Pipeline
 
 Designed and built an end-to-end continuous integration and deployment pipeline targeting an Amazon EKS cluster to automate application rollouts.
 
-Key Achievements & Technical Architecture:
-• Infrastructure & Cluster Setup: Provisioned an AWS EKS cluster using eksctl with custom node groups and configured IAM roles for node communication. Verified active cluster nodes (kubectl get nodes).
-• Continuous Integration: Configured a multi-stage Jenkins pipeline triggered by GitHub commits, integrating Apache Maven (mvn clean package) for automated compilation and artifact creation.
-• Containerization & Registry: Built lightweight container images from the .war application artifact and pushed tagged images to Docker Hub.
-• Automated Deployment & Load Balancing: Authenticated Jenkins with cluster credentials (kubeconfig) to execute dynamic rollouts (kubectl apply -f k8s-deploy.yml), exposing the application externally via AWS Elastic Load Balancer (ELB).
+**Key Achievements & Technical Architecture:**
+* **Infrastructure & Cluster Setup:** Provisioned an AWS EKS cluster using `eksctl` with custom node groups and configured IAM roles for node communication. Verified active cluster nodes (`kubectl get nodes`).
+* **Continuous Integration:** Configured a multi-stage Jenkins pipeline triggered by GitHub commits, integrating Apache Maven (`mvn clean package`) for automated compilation and artifact creation.
+* **Containerization & Registry:** Built lightweight container images from the `.war` application artifact and pushed tagged images to Docker Hub (`mahevish07/maven-web-app`).
+* **Automated Deployment & Load Balancing:** Authenticated Jenkins with cluster credentials (`kubeconfig`) to execute dynamic rollouts (`kubectl apply -f k8s-deploy.yml`), exposing the application externally via AWS Elastic Load Balancer (ELB).
 
-GitHub: https://github.com/siddiquimahevishfatema/maven-web-app1.git
+**GitHub:** [Repository Link](https://github.com/siddiquimahevishfatema/maven-web-app1.git)
 
-Skills:  
-
-Kubernetes
-
-Amazon EKS
-
-Jenkins
-
-Docker
-
-AWS (Amazon Web Services)
-
-Apache Maven
-
-CI/CD Pipelines
-
-Linux
-These projects will demonstrate my practical experience in **containerization, automated deployments, Kubernetes orchestration, and cloud deployment**.
+`Kubernetes` | `Amazon EKS` | `Jenkins` | `Docker` | `AWS` | `Apache Maven` | `CI/CD Pipelines` | `Linux`
 
 ---
-
 
 ## 📚 Currently Learning
 
@@ -111,13 +88,13 @@ These projects will demonstrate my practical experience in **containerization, a
 
 ## 🎓 Education
 
-**Master's in Computer Science**
-Dr. Rafiq Zakaria Centre for Higher Learning and Advanced Research, Aurangabad
-2021–2023 | 88.8%
+**Master's in Computer Science**  
+Dr. Rafiq Zakaria Centre for Higher Learning and Advanced Research, Aurangabad  
+*2021–2023 | 88.8%*
 
-**Bachelor's in Computer Science**
-Maulana Azad College, Aurangabad
-2018–2021 | 82.83%
+**Bachelor's in Computer Science**  
+Maulana Azad College, Aurangabad  
+*2018–2021 | 82.83%*
 
 ---
 
@@ -135,26 +112,23 @@ I'm continuously building practical projects to strengthen my understanding of D
 ```text
 Application
      ↓
-   Git/GitHub
+ Git/GitHub
      ↓
-   Jenkins
+  Jenkins
      ↓
-    Docker
+   Docker
      ↓
  Kubernetes
      ↓
-     AWS
-```
+    AWS
 
----
+🤝 Let's Connect
+💼 LinkedIn: https://www.linkedin.com/in/mahevish-fatema-7015512a8/
 
-## 🤝 Let's Connect
+🐙 GitHub: https://github.com/siddiquimahevishfatema
 
-* 💼 **LinkedIn:** https://www.linkedin.com/in/mahevish-fatema-7015512a8/
-* 🐙 **GitHub:** https://github.com/siddiquimahevishfatema
-* 🌐 **Portfolio:** https://siddiquimahevishfatema.github.io/mahevish_fatema.github.io/
-* 📧 **Email:** siddiquimahevish07@gmail.com
+🌐 Portfolio: https://siddiquimahevishfatema.github.io/mahevish_fatema.github.io/
 
----
+📧 Email: siddiquimahevish07@gmail.com
 
 ⭐ Feel free to explore my repositories as I continue building and documenting my DevOps journey.
