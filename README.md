@@ -88,11 +88,11 @@ Designed and built an end-to-end continuous integration and deployment pipeline 
 
 **Master's in Computer Science**  
 Dr. Rafiq Zakaria Centre for Higher Learning and Advanced Research, Aurangabad  
-*2021–2023 | 88.8%*
+*2021–2023  
 
 **Bachelor's in Computer Science**  
 Maulana Azad College, Aurangabad  
-*2018–2021 | 82.83%*
+*2018–2021 
 
 ---
 
