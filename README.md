@@ -45,18 +45,6 @@ I'm passionate about learning how applications move from **code to production** 
 
 ## 🚀 Projects
 
-### Employee Messaging System
-A web-based internal messaging system developed using Django to enable communication between employees.
-
-**Highlights:**
-* Developed an employee messaging system using Django.
-* Designed the system to support internal communication.
-* Focused on reducing external data sharing and supporting secure internal communication.
-
-**Technologies:** Python, Django
-
----
-
 ### 🔧 DevOps Projects
 
 #### AWS EKS Java Application Deployment Pipeline
@@ -105,7 +93,7 @@ Maulana Azad College, Aurangabad
 
 ## 🤝 Let's Connect
 
-* 💼 **LinkedIn:** [Mahevish Fatema](https://www.linkedin.com/in/mahevish-fatema-7015512a8/)
+* 💼 **LinkedIn:** [Mahevish Fatema](https://www.linkedin.com/in/mahevishfatema07/)
 * 🐙 **GitHub:** [siddiquimahevishfatema](https://github.com/siddiquimahevishfatema)
 * 🌐 **Portfolio:** [Live Portfolio Site](https://siddiquimahevishfatema.github.io/mahevish_fatema.github.io/)
 * 📧 **Email:** [siddiquimahevish07@gmail.com](mailto:siddiquimahevish07@gmail.com)
