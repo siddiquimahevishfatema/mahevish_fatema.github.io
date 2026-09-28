@@ -57,7 +57,7 @@ Designed and built an end-to-end continuous integration and deployment pipeline 
 * **Containerization & Registry:** Built lightweight container images from the `.war` application artifact and pushed tagged images to Docker Hub (`mahevish07/maven-web-app`).
 * **Automated Deployment & Load Balancing:** Authenticated Jenkins with cluster credentials (`kubeconfig`) to execute dynamic rollouts (`kubectl apply -f k8s-deploy.yml`), exposing the application externally via AWS Elastic Load Balancer (ELB).
 
-**GitHub:** [Repository Link](https://github.com/siddiquimahevishfatema/maven-web-app1.git)
+**GitHub:** [Repository Link](https://github.com/siddiquimahevishfatema)
 
 ---
 
