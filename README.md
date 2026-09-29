@@ -34,6 +34,7 @@ I'm passionate about learning how applications move from **code to production** 
 
 ### Programming & Application Development
 * Python
+* YAML
 
 ### Operating Systems & Tools
 * Linux
@@ -76,12 +77,13 @@ Provisioned secure, scalable AWS cloud infrastructure and automated state manage
 
 ## 📚 Currently Learning
 
-* Advanced Kubernetes
-* AWS & Cloud Infrastructure
-* CI/CD Automation
-* Infrastructure & Deployment Automation
-* DevOps Security
-* Containerized Application Deployment
+* ☸️ Advanced Kubernetes
+* ☁️ AWS & Cloud Infrastructure
+* 🔄 CI/CD Automation
+* 🛡️ DevOps Security
+* ⚙️ Infrastructure & Deployment Automation
+* 🌐 NGINX & Reverse Proxies
+* 🐳 Containerized Application Deployment
 
 ---
 
