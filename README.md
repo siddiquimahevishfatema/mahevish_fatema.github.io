@@ -57,7 +57,20 @@ Designed and built an end-to-end continuous integration and deployment pipeline 
 * **Containerization & Registry:** Built lightweight container images from the `.war` application artifact and pushed tagged images to Docker Hub (`mahevish07/maven-web-app`).
 * **Automated Deployment & Load Balancing:** Authenticated Jenkins with cluster credentials (`kubeconfig`) to execute dynamic rollouts (`kubectl apply -f k8s-deploy.yml`), exposing the application externally via AWS Elastic Load Balancer (ELB).
 
-**GitHub:** [Repository Link](https://github.com/siddiquimahevishfatema)
+**GitHub:** [Repository Link](https://github.com/siddiquimahevishfatema/maven-web-app1)
+
+---
+
+#### Automated Web Application Infrastructure & Containerized Deployment
+
+Provisioned secure, scalable AWS cloud infrastructure and automated state management using Terraform to support reliable containerized application deployments.
+
+**Key Achievements & Technical Architecture:**
+* **Infrastructure Provisioning & Versioning:** Authored declarative Infrastructure-as-Code (IaC) scripts using Terraform, pinning HashiCorp AWS provider plugins to `v5.100.0` for predictable resource orchestration and provider stability.
+* **State Management & Concurrency:** Configured AWS provider authentication and integrated remote backend state locking to maintain deployment state integrity and support concurrent developer workflows.
+* **Network Access & Security Controls:** Designed and applied secure VPC-bound security group rules to restrict inbound access strictly to application port `8080` while enabling full egress traffic for external updates and API calls.
+
+**GitHub:** [Repository Link](https://github.com/siddiquimahevishfatema/aws-terraform-docker-webapp)
 
 ---
 
